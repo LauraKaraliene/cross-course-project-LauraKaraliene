@@ -12,9 +12,11 @@ Working through variuous stages and timelines, the project required careful plan
 
 - Designing a prototype
 - Laying the initial coding foundation with HTML/CSS
+- Create a local installation of WordPress, upload it to web host and add WooCommerce plugin
 - Using Postman to test API calls and retrieve JSON data
 - Using an API call to fetch product details from WordPress
 - Adding functionality with JavaScript
+  
 
 ## Built With
 
