@@ -1,0 +1,309 @@
+header {
+  border-bottom: var(--border-colour) solid 1px;
+}
+
+nav a {
+  color: var(--text-colour);
+}
+
+main {
+  position: relative;
+  flex: 1;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.main-left-middle-block {
+  max-width: 600px;
+  min-height: 500px;
+  margin: 20px auto;
+}
+
+.main-left-jacket-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.main-left-jacket-block p {
+  font-size: smaller;
+}
+
+.main-left-jacket {
+  max-width: 100px;
+  max-height: 130px;
+  padding-right: 20px;
+}
+
+.main-left p {
+  margin: 7px auto;
+  font-size: 0.8em;
+}
+
+.main-middle-block {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0px 20px 0px 50px;
+  align-self: center;
+  max-width: 300px;
+}
+
+.main-middle-block p {
+  margin: 5px auto;
+  font-size: 0.8em;
+}
+
+.plus-minus {
+  display: flex;
+  flex-direction: row;
+  width: 65px;
+  align-items: center;
+}
+
+.button-minus,
+.button-plus {
+  border: none;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.main-middle-price {
+  font-weight: bolder;
+}
+
+.remove {
+  color: var(--cta-add-to-cart-colour);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.main-upper {
+  display: flex;
+  flex-direction: row;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 2%;
+  width: 700px;
+  max-height: 400px;
+  align-items: center;
+  background-color: var(--background-colour-cart);
+}
+
+.main-upper p {
+  margin: 7px auto;
+}
+
+.main-upper h4 {
+  text-align: center;
+}
+
+.total,
+.total-nok {
+  font-weight: bolder;
+  padding-top: 15px;
+}
+
+.order-summary-block {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order-summary-left {
+  display: block;
+}
+
+.order-summary-right {
+  display: block;
+  text-align: right;
+  padding-left: 40px;
+}
+
+.cart-2-buttons {
+  max-width: 200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.cart-button {
+  margin: 20px auto 30px auto;
+  max-width: 150px;
+}
+
+.cart-button-text {
+  color: var(--cta-send-checkout-colour);
+  text-decoration: none;
+}
+
+.cart-button-text:hover {
+  text-decoration: none;
+}
+
+.continue {
+  margin: 20px auto 0px auto;
+}
+
+.shipping-info {
+  margin: auto 0px;
+  width: 180px;
+}
+
+.shipping-info p {
+  font-size: x-small;
+}
+
+.shipping {
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  nav li {
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 950px) {
+  .search {
+    display: none;
+  }
+
+  .main-upper {
+    width: 600px;
+  }
+
+  .main-content {
+    margin: 50px auto;
+    max-width: 600px;
+  }
+
+  .main-left p {
+    margin: 4px auto;
+    font-size: 0.6em;
+  }
+
+  h4 {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 750px) {
+  nav {
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    margin-right: 30px;
+  }
+
+  .shopping_cart {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+  .cart-plus-number {
+    margin-right: 10px;
+  }
+
+  .main-middle-block {
+    margin: 0px 30px 0px 20px;
+  }
+}
+
+@media (min-width: 751px) {
+  .fa-bars {
+    display: none;
+  }
+
+  .fa-magnifying-glass {
+    font-size: 23px;
+    right: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-upper {
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .cart-2-buttons {
+    margin: 30px auto;
+  }
+
+  .cart-button {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .cart-button-continue-shopping {
+    margin-top: 10px;
+  }
+
+  .shipping-info,
+  .shipping {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  footer {
+    margin-top: 50px;
+  }
+
+  .main-upper {
+    width: 400px;
+    border: none;
+  }
+
+  .main-left-jacket-block {
+    width: 400px;
+    margin: auto;
+  }
+
+  .main-middle-block {
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .main-content {
+    width: 300px;
+  }
+
+  .main-upper {
+    width: 300px;
+    padding: 20px 0px;
+  }
+
+  .main-left-jacket-block {
+    width: 300px;
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    max-width: 100px;
+  }
+
+  header {
+    padding: 10px 10px;
+  }
+}
