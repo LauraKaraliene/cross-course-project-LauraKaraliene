@@ -1,4 +1,4 @@
-# cross-course-project-LauraKaraliene
+# Cross Course Project
 
 ![Screenshot of My Project](rainy-days-screenshot.png)
 
