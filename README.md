@@ -1,4 +1,4 @@
-# Your project title
+# cross-course-project-LauraKaraliene
 
 ![Screenshot of My Project](rainy-days-screenshot.png)
 
