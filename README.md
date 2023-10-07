@@ -1,70 +1,78 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![Screenshot of My Project](rainy-days-screenshot.png)
 
-A simple overview of the use/purpose of the project.
+An online shop selling men's and women’s rain jackets, that are designed for a range of different outdoor activities that enrich people's lives. 
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+For my cross course project, I was tasked with creating and developing a dynamic e-commerce platform for a distinctive brand selling men's and women's rain jackets, designed for enhanced outdoor experiences. 
 
-You can add some bullet points if you'd like to:
+Working through variuous stages and timelines, the project required careful planning and newly-acquired knowledge implementation in areas such as:
 
-- List item 1
-- List item 2
-- List item 3
+- Designing a prototype
+- Laying the initial coding foundation with HTML/CSS
+- Using Postman to test API calls and retrieve JSON data
+- Using an API call to fetch product details from WordPress
+- Adding functionality with JavaScript
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- [Visual Studio Code](https://code.visualstudio.com/) (HTML5, CSS, JavaScript)
+- [WordPress API](https://developer.wordpress.org/rest-api/)
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone https://github.com/LauraKaraliene/cross-course-project-LauraKaraliene
 ```
 
-2. Install the dependencies:
+2. Navigate to the Project Directory.
+   Change your current directory to the cloned repository:
 
+```bash
+cd SemesterProject1
 ```
+
+3. Open the project in the code editor of your choice.
+   For Visual Studio Code, you might use:
+
+```bash
+code . 
+```
+
+4. Install Dependencies.
+   If using Node.js, you might instruct users to install dependencies using:
+
+```bash
 npm install
 ```
 
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
+  For Python projects with a requirements.txt, you might use:
 
 ```bash
-npm run start
+pip install -r requirements.txt
 ```
 
-## Contributing
+5. Start the Development Server.
+   For Node.js projects, this might be:
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+```bash
+npm start
+```
+   
+6. Start customizing
+
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[Facebook](https://www.facebook.com/LAURA_KARALIENE)
 
-[My Twitter page](www.twitter.com)
+[LinkedIn](www.linkedin.com/in/laura-karaliene-31476657)
 
-[My LinkedIn page](www.linkedin.com)
+[Email](mailto:laura.stanislavaviciute@gmail.com)
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
